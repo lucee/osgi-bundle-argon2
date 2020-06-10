@@ -118,7 +118,7 @@
             <Bundle-SymbolicName>org.lucee.argon2</Bundle-SymbolicName>
             <Bundle-Description>OSGI version of jar ${project.name}</Bundle-Description>
             <Export-Package>*,META-INF.services.*</Export-Package>
-            <!-- <Require-Bundle></Require-Bundle> -->
+            <Require-Bundle>com.sun.jna;bundle-version=5.5.0</Require-Bundle>
             <!-- <Require-Bundle-Fragment></Require-Bundle-Fragment> -->
             <!-- <Import-Package>*</Import-Package> -->
             <!-- <DynamicImport-Package>*</DynamicImport-Package> -->
