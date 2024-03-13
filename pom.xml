@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.lucee</groupId>
   <artifactId>argon2</artifactId>
-  <version>2.7.0</version>
+  <version>2.11.0</version>
   <name>	</name>
   <packaging>bundle</packaging>
 
@@ -94,7 +94,7 @@
                  <artifactItem>
                    <groupId>de.mkammerer</groupId>
                     <artifactId>argon2-jvm</artifactId>
-                    <version>2.7</version>
+                    <version>2.11</version>
                    <type>jar</type>
                    <overWrite>false</overWrite>
                    <outputDirectory>${project.build.directory}/classes</outputDirectory>
